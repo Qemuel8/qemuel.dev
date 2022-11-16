@@ -1,0 +1,22 @@
+[debug] [2022-11-16T14:40:51.233Z] ----------------------------------------------------------------------
+[debug] [2022-11-16T14:40:51.236Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yigit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-16T14:40:51.237Z] CLI Version:   11.16.1
+[debug] [2022-11-16T14:40:51.237Z] Platform:      win32
+[debug] [2022-11-16T14:40:51.237Z] Node Version:  v18.12.1
+[debug] [2022-11-16T14:40:51.238Z] Time:          Wed Nov 16 2022 17:40:51 GMT+0300 (GMT+03:00)
+[debug] [2022-11-16T14:40:51.238Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-16T14:40:51.245Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-11-16T14:40:51.296Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-16T14:40:51.297Z] > authorizing via signed-in user (yigitalsancak8@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\yigit\OneDrive\Desktop\Code\qemuel.dev
+
