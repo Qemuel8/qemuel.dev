@@ -13,7 +13,7 @@ class Home extends Component {
                 <li className='navbar-item'>About Me</li>
             </ul>
 
-                <h1> I am a Web Developer test</h1>
+                <h1> I am a Web Developer test2</h1>
                 <div id='img-container'>
                     <img id='my-image' src={myImage}></img>
                     <div>
