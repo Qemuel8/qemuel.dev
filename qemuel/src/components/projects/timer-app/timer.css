@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Indie+Flower&display=swap');
+
+
+#timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+
+#timer-name{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#timer-settings{
+    display: flex;
+    flex-direction:row;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#timer-settings button{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#break-label{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    position: absolute;
+    left:50px;
+    top:90px;
+    font-size: 35px;
+}
+#session-label{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    position: absolute;
+    right:50px;
+    top:90px;
+    font-size: 35px;
+}
+
+
+#break-length,
+#session-length{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#up-icon,
+#down-icon{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#timer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: -40px;
+
+}
+
+#timer-label{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#play-icon,
+#reset-icon{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+#start_stop,
+#reset{
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+
+}
+#time-left{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+ #info{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px
+ }

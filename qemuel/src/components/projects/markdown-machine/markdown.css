@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.editor-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:150px;
+  margin-top: 50px;
+
+}
+#editor-label{
+  writing-mode:vertical-rl;
+  text-orientation: upright;
+  font-family: Oswald;
+  background-color:rgb(151,31,40);
+  border-radius: 10px;
+  font-weight: bold;
+  height: 100%;
+  padding: 20px 2px;
+}
+
+#editor{
+  height: 100%;
+  width:500px;
+  background-color: rgba(229, 40, 46, 0.415);
+  border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.preview-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  height: 300px;
+
+
+}
+
+#preview-label{
+  writing-mode:vertical-rl;
+  text-orientation: upright;
+  height: 100%;
+  text-align: center;
+  font-family: Oswald;
+  background-color:rgb(57,154,153);
+  border-radius: 10px;
+  padding: 20px 0;
+  font-weight: bold;
+
+}
+
+#preview{
+  height: 100%;
+  background-color: rgba(225,242,249);
+  border-radius: 10px;
+  width: 850px;
+  padding: 20px 20px;
+  overflow:scroll;
+  
+}
+
+.expand-preview{
+    background-color: transparent;
+    border:none;
+    cursor:pointer;
+}
+.button-image{
+  width:50px;
+
+}

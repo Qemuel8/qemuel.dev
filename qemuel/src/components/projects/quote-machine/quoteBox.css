@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  background-color: rgba(180, 165, 58, 0.774);
+  font-family: Roboto, Arial;
+}
+#quote-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.quote-image{
+  width: 1400px;
+  height: 800px;
+  object-fit: cover;
+}
+.image-box{
+  position: relative;
+}
+.text-box{
+  position: fixed;
+  height: 300px;
+  width: 800px;
+  top:50%;
+  left:50%;
+  margin-top: -180px;
+  margin-left: -350px;
+}
+.buttons{
+  display:flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 110px;
+  margin-left: -350px;
+}
+.quote{
+  font-size:45px;
+  font-weight: 600;
+  color:black
+}
+.author{
+  font-size: 30px;
+    font-weight: 600;
+  color:black;
+  margin-left: 500px;
+}
+.content{
+  z-index: 100;
+  position: fixed;
+  bottom: 50%;
+  left:50%;
+  margin-left: -450px;
+  margin-bottom:  -200px;
+  width: 900px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.514);
+}
+.tweetImage{
+  margin-right: 464px;
+  width: 60px;
+  height: 60px;
+  padding: 10px 10px;
+  border-radius:30px;
+  background-color:rgba(255, 255, 255, 0.579);
+}
+.new-quote-button{
+  font-size: 24px;
+  font-weight: 900;
+  border:2px solid rgb(51, 48, 48);
+  height: 60px;
+  width: 180px;
+  border-radius: 10px;
+}
